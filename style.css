@@ -326,3 +326,27 @@ footer {
 .resume {
     text-decoration: none;
 }
+
+.nose {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        display: none;
+    }
+
+    .nose {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+    }
+
+    .black p {
+        margin: 0;
+    }
+
+}
