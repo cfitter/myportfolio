@@ -1,0 +1,328 @@
+body {
+    font-family: sans-serif !important;
+    font-size: 100%;
+    background-color: white;
+    margin: 0;
+
+}
+
+a {
+
+    color: black;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 5%;
+
+
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40%;
+
+}
+
+.header {
+    background-color: #FAFAFA;
+    border-radius: 25px;
+
+}
+
+h1 {
+
+    font-size: 40px;
+}
+
+.h1 {
+    font-size: 2.5em;
+    text-align: start;
+    padding-left: 200px;
+    font-weight: 100;
+}
+
+.underline {
+    border: 2px;
+    border-bottom: 5px;
+    border-color: black;
+}
+
+h2 {
+    color: grey;
+}
+
+
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+h4 {
+    font-weight: 100;
+    font-size: larger;
+}
+
+h5 {
+    font-size: larger;
+    font-weight: lighter;
+    text-align: start;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+p {
+    font-size: 1.5em;
+
+}
+
+
+
+.hero {
+    text-align: center;
+}
+
+.socials {
+    padding-top: 25px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.profile-pic {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+
+.social-icons {
+    display: flex;
+
+    justify-content: space-evenly;
+    padding-top: 38px 38px;
+    border-top: 25px;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
+
+
+.projects-text {
+    color: black;
+    font-size: 2.5em;
+    padding-top: 50px;
+}
+
+
+title {
+    margin-top: 50px;
+}
+
+.project-1-flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(162, 162, 162);
+    border-right: 0ch;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+
+
+}
+
+.project-2-flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(162, 162, 162);
+    border-right: 0ch;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.project-3-flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(162, 162, 162);
+    border-right: 0ch;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.project-4-flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(162, 162, 162);
+    border-right: 0ch;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.button-about a {
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(103, 208, 241);
+    padding: 10px 38px;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+
+
+.mc-text {
+    width: 380px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+.mcpt {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+
+}
+
+.nice-to-meet-you-flex-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    text-align: left;
+    align-items: center;
+}
+
+.about-text {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.not-working-flex-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    text-align: left;
+    align-items: center;
+}
+
+
+.free-text {
+    padding-right: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.hi {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+
+    padding-top: 0px;
+    font-weight: lighter;
+    color: rgb(181, 179, 179);
+
+}
+
+.link-to-email {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #dfeff3;
+    margin-top: 50px;
+    display: flex;
+    font-size: x-small;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutp {
+    line-height: 2;
+    position: relative;
+    top: -.5em;
+    font-size: 20px;
+}
+
+.notworkingtext {
+    line-height: 2;
+    position: relative;
+    top: -.5em;
+    font-size: 20px;
+}
+
+.skillstext {
+
+    font-size: larger;
+}
+
+.skills {
+    font-size: larger;
+}
+
+.arches {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 160px;
+    padding-top: 100px;
+}
+
+.ugh {
+    text-decoration: none;
+}
+
+.about {
+
+    text-decoration: none;
+}
+
+.blog {
+    text-decoration: none;
+}
+
+.resume {
+    text-decoration: none;
+}
